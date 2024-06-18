@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Google Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <style>
+        input {
+            padding-left: 25px;
+            height: 50px;
+            width: 500px;
+        }
+
+        h1 {
+            color: white;
+            font-size: 100px;
+            font-family: Helvetica;
+            margin: auto;
+        }
+
+        #bar {
+            background-size: 20px, 20px;
+            font-size: 200px;
+            margin-top: -30px;
+            margin-left: -15px;
+            margin-bottom: -20px;
+        }
+
+        .moveright {
+            transform: translate(40px);
+        }
+
+        .move {
+            transform: translate(-10px);
+        }
+    </style>
+</head>
+
+<Body style="background-color: #718355;">
+    <!use grids tomorrow>
+        <div class="container text-center" style="margin-top: 80px;">
+            <div class="row cols-3">
+                <div class="col"></div>
+                <div class=" col-xl-6 p-3 mb-2 bg-info-subtle text-omfp-emphasis">
+                    <form action="https://google.com/search">
+                        <div>
+                            </br>
+                            <h1 id="sea">Search</h1>
+                            <h1 id="bar">Bar</h1>
+                            <input class="border border-1 rounded-pill" type="text" placeholder="Search" name="q"
+                                style="margin-bottom: 30px;">
+                        </div>
+                        <div>
+                            <div class="container text-center">
+                                <div class="row">
+                                    <div class="col">
+                                        <button class="border border-0 rounded-pill" type="submit"
+                                            style="height: 30px; width: 150px;">Google Search</button>
+                                        <form action="">
+                                            <! for Im feeling lucky button>
+                                                <button class="border border-0 rounded-pill" type="submit"
+                                                    style=" margin-left: 60px; height: 30px; width: 150px;"> I'm Feeling
+                                                    Lucky</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class="col"></div>
+                        <div class=" col-xl-6 p-3 mb-2 bg-info-subtle text-omfp-emphasis position-static">
+                            <form action="https://images.google.com">
+                                <button class="btn btn-link"
+                                    style="color: white; margin-top: -150px; margin-right: -150px;">Advandced
+                                    Search</button>
+                            </form>
+                            <form action="https://www.google.com/advanced_search">
+                                <button class="btn btn-link"
+                                    style="color: white; margin-top: -200px; margin-left: -100px;">Images</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+</Body>
+
+</html>
